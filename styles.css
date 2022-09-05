@@ -11,6 +11,19 @@
   padding: 0;
 }
 
+.todo {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  gap: 16px;
+  margin-bottom: 4px;
+}
+
+.todo__text {
+  text-align: left;
+  margin-right: auto;
+}
+
 .button {
   font-family: Inter, Arial, sans-serif;
   font-size: 16px;
